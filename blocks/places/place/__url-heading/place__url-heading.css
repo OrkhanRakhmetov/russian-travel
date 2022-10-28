@@ -1,0 +1,18 @@
+.place__url-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 730px) {
+    .place__url-heading {
+        padding: 0 16px
+    }
+}

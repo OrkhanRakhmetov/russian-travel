@@ -1,0 +1,22 @@
+.content {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 92px;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    .content {
+        row-gap: 88px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .content {
+        row-gap: 64px;
+    }
+}
