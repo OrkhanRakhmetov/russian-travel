@@ -2,26 +2,22 @@
     font-family: 'Inter', Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    row-gap: 80px;
     box-sizing: border-box;
-    max-width: 984px;
     width: 100%;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 980px) {
     .places {
-        max-width: calc(100% - 2*48px);
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .places {
-        max-width: calc(100% - 2*24px);
+        row-gap: 73px;
     }
 }
 
 @media screen and (max-width: 730px) {
     .places {
         max-width: 100%;
+        row-gap: 50px;
+
     }
 }

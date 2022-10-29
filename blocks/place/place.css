@@ -3,24 +3,15 @@
     grid-template-columns: repeat(2, 46.7%);
     column-gap: 40px;
     row-gap: 48px;
-    margin-bottom: 80px;
     box-sizing: border-box;
 }
 
-.place:last-child {
-    margin-bottom: 0;
-}
 
-@media screen and (max-width: 980px) {
-    .place {
-        margin-bottom: 73px;
-    }
-}
+
 
 @media screen and (max-width: 730px) {
     .place {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 32px;
-        margin-bottom: 50px;
     }
 }

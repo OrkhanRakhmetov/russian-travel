@@ -1,0 +1,12 @@
+.page__section {
+    padding-top: 28px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 568px) {
+    .page__section {
+        padding-top: 16px;
+    }
+}
