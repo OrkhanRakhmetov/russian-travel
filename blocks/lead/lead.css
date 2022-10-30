@@ -3,12 +3,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 984px;
     width: 100%;
     box-sizing: border-box;
 }
 
 
-
+@media screen and (max-width: 1080px) {
+    .lead {
+        max-width: calc(100% - 2*48px);
+    }
+}
 @media screen and (max-width: 980px) {
     .lead {
         max-width: 100%;

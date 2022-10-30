@@ -10,9 +10,3 @@
     color: #AAAAAA;
     box-sizing: border-box;
 }
-
-@media screen and (max-width: 730px) {
-    .place__url-heading {
-        padding: 0 16px;
-    }
-}

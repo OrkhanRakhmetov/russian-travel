@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Document</title>
+    <title>Russian-travel</title>
 </head>
 
 <body class="page">
 
     <header class="header page__header">
         <img src="./images/header-logo.svg" alt="Логотип шапки." class="header__logo">
-        <div class="header__links">
-            <a href="#!" class="header__lang-link">Ru</a>
-            <a href="#!" class="header__lang-link">En</a>
-        </div>
+        <ul class="header__links">
+            <li><a href="#!" class="header__lang-link header__lang-link_active">Ru</a></li>
+            <li><a href="#!" class="header__lang-link">En</a></li>
+        </ul>
     </header>
 
     <main class="content page__content">
 
         <section class="lead content__section">
             <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-            <h2 class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</h2>
+            <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
             <img class="lead__image" src="./images/lead-polka.jpg" alt="Девушка спит на боковой полке в плацкарте.">
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
@@ -71,10 +71,12 @@
         </section>
 
         <section class="places content__section">
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
-                <p class="place__url-heading">URL<a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a></p>
-
+                <div class="place__item">
+                    <p class="place__url-heading">URL</p>
+                    <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+                </div>
                 <img src="./images/place-kosa.jpg" alt="Куршская коса берег." class="place__image">
                 <div>
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -85,13 +87,14 @@
                         наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
                         спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
-                <p class="place__url-heading">URL<a
-                        href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                        class="place__link">National Geographic</a></p>
-
+                <div class="place__item">
+                    <p class="place__url-heading">URL</p>
+                    <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                        class="place__link">National Geographic</a>
+                </div>
                 <img src="./images/place-kolsky.jpg" alt="заснеженная местность Кольского п-ва." class="place__image">
                 <div>
                     <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
@@ -103,13 +106,14 @@
                         начинает сбываться с билетом
                         в Мурманск.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
-                <p class="place__url-heading">URL<a
-                        href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                        class="place__link">Facebook</a></p>
-
+                <div class="place__item">
+                    <p class="place__url-heading">URL</p>
+                    <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                        class="place__link">Facebook</a>
+                </div>
                 <img src="./images/place-altai.jpg" alt="ноутбук на фоне Алтайских лесов." class="place__image">
                 <div>
                     <p class="place__paragraph">Алтай — одно из красивейших мест в России.
@@ -120,12 +124,13 @@
                         увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают
                         орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
-                <p class="place__url-heading">URL<a href="https://vk.com/baikalmile"
-                        class="place__link">https://vk.com/baikalmile</a></p>
-
+                <div class="place__item">
+                    <p class="place__url-heading">URL</p>
+                    <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+                </div>
                 <img src="./images/place-winter-baikal.jpg" alt="лёд Байкала крупным планом." class="place__image">
                 <div>
                     <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -136,13 +141,13 @@
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
                         фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
-                <p class="place__url-heading">URL<a href="http://vodlozero.ru"
-                        class="place__link">http://vodlozero.ru/</a>
-                </p>
-
+                <div class="place__item">
+                    <p class="place__url-heading">URL</p>
+                    <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+                </div>
                 <img src="./images/place-karelia.jpg" alt="водоем оруженный лесами Карелии." class="place__image">
                 <div>
                     <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии:
@@ -159,7 +164,7 @@
                         в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                     </p>
                 </div>
-            </div>
+            </article>
         </section>
 
         <section class="cover content__section">
@@ -173,13 +178,13 @@
     </main>
 
     <footer class="footer page__footer">
-        <div class="footer__links">
+        <nav class="footer__links">
             <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
             <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
             <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
             <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
             <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-        </div>
+        </nav>
         <p class="footer__copyright">&copy; 2020. Рахметов Орхан</p>
     </footer>
 

@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 980px) {
     .content__section {
         max-width: calc(100% - 2*24px);
     }

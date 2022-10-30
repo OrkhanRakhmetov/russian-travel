@@ -12,7 +12,6 @@
     background-size: cover;
     color: #fff;
     margin: 0 auto;
-    overflow: hidden;
     z-index: 1;
     box-sizing: border-box;
 }
@@ -31,23 +30,11 @@
 }
 
 .cover__link:hover::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2A2C2F;
     opacity: 0.8;
-    z-index: -1;
 }
 
 @media screen and (max-width: 1200px) {
     .cover__link {
         max-width: 100%;
     }
-}
-
-@media screen and (max-width: 730px) {
-    .cover__link {}
 }
