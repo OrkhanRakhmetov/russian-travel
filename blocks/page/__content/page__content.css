@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 980px) {
     .page__content {
-        margin-bottom: 88px;
+        margin-bottom: 90px;
         padding: 0;
     }
 }
 
 @media screen and (max-width: 568px) {
     .page__content {
-        margin-bottom: 64px;
+        margin-bottom: 66px;
     }
 }
